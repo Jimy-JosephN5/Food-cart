@@ -1,0 +1,64 @@
+body {
+  font-family: "Otomanopee One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 12px;
+  color: rgba(32, 40, 47, 0.68);
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  height: 1.5em;
+}
+
+.banner {
+  background-image: url(/Frame.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-right: 100px;
+  padding-left: 70px;
+  width: 100%;
+}
+
+.skip-area {
+  color: rgba(172, 48, 3, 0.762);
+}
+
+.link-button {
+  background-image: linear-gradient(rgb(251, 87, 58), rgb(128, 36, 36));
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 8px 12px;
+  border-radius: 18px;
+}
+
+.half-width {
+  padding-left: 5%;
+  width: 50%;
+}
+
+.about-me {
+  margin: 15px;
+  margin-left: 20px;
+}
+
+.half-width img {
+  width: 70%;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 150px;
+}
