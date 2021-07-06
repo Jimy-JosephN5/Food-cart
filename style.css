@@ -82,7 +82,7 @@ p {
 .recipe-item {
   width: 20%;
   margin: 5% 5%;
-  height: 300px;
+  height: 350px;
   padding: 15px;
   box-shadow: 1px 10px 15px 1px grey;
   border-radius: 1em;
@@ -96,13 +96,12 @@ p {
 }
 
 .btn-color {
-  background-image: linear-gradient(rgba(90, 113, 99, 0.87), rgb(65, 93, 78));
+  background-image: linear-gradient(
+    rgba(241, 235, 224, 0.632),
+    rgba(160, 129, 124, 0.836)
+  );
   border-radius: 20px;
-  width: 100%;
-  padding: 5px;
-  height: 10%;
-  margin: 100px auto;
-  display: block;
+  width: ;
 }
 
 .footer {
