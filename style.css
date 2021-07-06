@@ -17,6 +17,11 @@ h3 {
   font-size: 15px;
 }
 
+.flexble-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
 p {
   font-size: 12px;
   color: rgba(32, 40, 47, 0.68);
@@ -65,12 +70,6 @@ p {
 .half-width img {
   max-width: 100%;
   width: 65%;
-}
-
-.container {
-  display: flex;
-  margin-bottom: 50px;
-  max-width: 100%;
 }
 
 .recipe-area {
