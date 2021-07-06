@@ -86,11 +86,19 @@ p {
   padding-top: 0px;
 }
 
-.image {
-  background-color: rgb(127, 91, 19);
+.recipe-item {
   width: 200px;
-  padding: 25px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.title {
+  background-color: rgba(155, 216, 202, 0.68);
   height: 300px;
   background-image: url(/dalum.jpg);
-  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: groove;
+  box-shadow: 0px 0px 15px 2px grey;
+  border-radius: 10px;
 }
