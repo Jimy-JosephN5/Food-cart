@@ -1,11 +1,12 @@
 body {
   font-family: "Otomanopee One", sans-serif;
   margin: 0;
-  padding: 0;
+  padding-top: 20px;
 }
 
 h1 {
   font-size: 30px;
+  color: rgba(94, 94, 94, 0.925);
 }
 
 h2 {
@@ -15,32 +16,40 @@ h2 {
 p {
   font-size: 12px;
   color: rgba(32, 40, 47, 0.68);
+  text-align: justify;
 }
 
 .header {
   margin: 0px;
-  padding: 0px;
+  padding-top: 5px;
   height: 1.5em;
+  color: rgba(52, 49, 49, 0.938);
 }
 
 .banner {
   background-image: url(/Frame.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-right: 100px;
-  padding-left: 70px;
-  width: 100%;
+  padding-top: 80px;
+  padding-right: 20%;
 }
 
 .skip-area {
   color: rgba(172, 48, 3, 0.762);
+  font-weight: 700;
 }
 
 .link-button {
-  background-image: linear-gradient(rgb(251, 87, 58), rgb(128, 36, 36));
+  background-image: linear-gradient(rgb(58, 251, 244), rgb(36, 128, 125));
+  font-weight: 450;
+  font-size: small;
+  text-align: center;
   text-decoration: none;
   color: whitesmoke;
-  padding: 8px 12px;
+  display: flex;
+  padding: 5px 10px;
+  position: absolute;
+  border: groove beige;
   border-radius: 18px;
 }
 
@@ -49,16 +58,13 @@ p {
   width: 50%;
 }
 
-.about-me {
-  margin: 15px;
-  margin-left: 20px;
-}
-
 .half-width img {
-  width: 70%;
+  max-width: 100%;
+  width: 65%;
 }
 
 .container {
   display: flex;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+  max-width: 100%;
 }
