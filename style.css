@@ -68,3 +68,15 @@ p {
   margin-bottom: 50px;
   max-width: 100%;
 }
+
+.text-center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  height: 1em;
+}
+
+.text-center p {
+  margin: auto;
+  padding-top: 0px;
+}
