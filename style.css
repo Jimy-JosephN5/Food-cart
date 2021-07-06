@@ -103,7 +103,6 @@ p {
   height: 30px;
   width: 100%;
   border-radius: 20px;
-  width: ;
 }
 
 .footer {
@@ -115,7 +114,7 @@ p {
 .text-area {
   text-align: center;
   padding: 10px;
-  margin: 0;
+  margin: 0px;
 }
 
 .card {
