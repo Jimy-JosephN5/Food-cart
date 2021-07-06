@@ -76,23 +76,4 @@ p {
 .recipe-area {
   display: flex;
   margin-bottom: 150px;
-  background-position: left;
-  background-size: 90px;
-  margin: 100px auto;
-}
-
-.recipe-item {
-  width: 200px;
-  height: 300px;
-  margin: 5px 5px;
-  padding-left: 20px;
-  padding-right: 25px;
-}
-
-#background {
-  background-image: url(/dalum.jpg);
-  background-size: cover;
-  background-position: 50%;
-  width: 100%;
-  padding: 20px;
 }
