@@ -69,6 +69,11 @@ p {
   max-width: 100%;
 }
 
+.box-model {
+  width: 100%;
+  padding: 20px;
+}
+
 .text-center {
   margin: auto;
   width: 50%;
@@ -79,4 +84,13 @@ p {
 .text-center p {
   margin: auto;
   padding-top: 0px;
+}
+
+.image {
+  background-color: rgb(127, 91, 19);
+  width: 200px;
+  padding: 25px;
+  height: 300px;
+  background-image: url(/dalum.jpg);
+  background-position: center;
 }
