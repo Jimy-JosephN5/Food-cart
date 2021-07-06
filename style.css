@@ -78,17 +78,13 @@ p {
   text-align: center;
 }
 
-.recipe-area p {
-  padding: 5px;
-  text-align: center;
-}
-
 .recipe-item {
   width: 40%;
-  margin: 7% 7%;
-  padding: 65px;
-  box-shadow: 5px 5px 30px 5px rgba(130, 126, 126, 0.864);
-  align-items: center;
-  border: transparent;
-  border-radius: 50px;
+  margin: 5% 5%;
+  padding-right: 100px;
+  padding-left: 10px;
+  padding-top: 100px;
+  height: 300px;
+  box-shadow: 1px 10px 15px 1px grey;
+  border-radius: 1em;
 }
