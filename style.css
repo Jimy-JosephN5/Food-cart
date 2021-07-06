@@ -71,8 +71,3 @@ p {
   max-width: 100%;
   width: 65%;
 }
-
-.recipe-area {
-  display: flex;
-  margin-bottom: 150px;
-}
